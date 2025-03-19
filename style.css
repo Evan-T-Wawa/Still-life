@@ -1,28 +1,164 @@
-#box-right {
-    
+#phone-wall1 {
     position: absolute;
-    top: 196px; left: 608px;
+    top: 539px; left: 580px;
+    width: 80px;
+    height: 10px;
+    transform: skewY(-26deg);
+    background: rgb(32, 31, 31);
+  }
+
+  #phone-wall2 {
+    position: absolute;
+    top: 499px; left: 500px;
+    width: 80px;
+    height: 10px;
+    transform: skewY(56deg);
+    background: rgb(32, 31, 31);
+  }
+
+#phone1 {
+    position: absolute;
+    top: 400px; left: 500px;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 80px solid rgb(32, 31, 31);
+    border-bottom: 120px solid transparent;
+  }
+
+  #phone2 {
+    position: absolute;
+    top: 400px; left: 580px;
+    width: 0;
+    height: 0;
+    border-top: 120px solid transparent;
+    border-left: 80px solid rgb(32, 31, 31);
+    border-bottom: 40px solid transparent;
+  }
+
+  #phone-screen1 {
+    position: absolute;
+    top: 404px; left: 505px;
+    width: 0;
+    height: 0;
+    border-top: 38px solid transparent;
+    border-right: 74px solid rgb(228, 219, 219);
+    border-bottom: 112px solid transparent;
+  }
+
+  #phone-screen2 {
+    position: absolute;
+    top: 404px; left: 579px;
+    width: 0;
+    height: 0;
+    border-top: 114px solid transparent;
+    border-left: 76px solid rgb(228, 219, 219);
+    border-bottom: 38px solid transparent;
+  }
+
+
+  #ink-lid1{
+    position: absolute;
+    top: 324px; left: 549px;
+    width: 15px;
+    height: 15px;
+    background: rgb(32, 31, 31);
+    border-radius: 100px / 50px;
+  }
+
+  #ink-lid2{
+    position: absolute;
+    top: 334px; left: 542px;
     width: 30px;
-    height: 100px;
-    transform: skewY(-15deg);
-    background: rgb(183, 16, 63);
-}
+    height: 20px;
+    background: rgb(32, 31, 31);
+    border-radius: 100px / 50px;
+  }
 
-#box-front {
+  #ink-bottle1{
     position: absolute;
-    top: 200px; left: 500px;
-    width: 110px;
-    height: 100px;
-    transform: skew(-2deg);
-    background: linear-gradient(red, rgb(197, 22, 22));
-}
+    top: 345px; left: 535px;
+    width: 45px;
+    height: 25px;
+    background: rgb(177, 9, 9);
+    border-radius: 100px / 50px;
+  }
 
-#box-top {
+  #ink-bottle2{
     position: absolute;
-    top: 192px; left: 516px;
-    width: 110px;
-    height: 8px;
-    transform: skew(-74deg);
-    background: rgb(255, 101, 101);
-}
+    top: 375px; left: 535px;
+    width: 45px;
+    height: 20px;
+    background: rgb(177, 9, 9);
+    border-radius: 100px / 50px;
+  }
 
+  #ink-bottle3{
+    position: absolute;
+    top: 370px; left: 535px;
+    width: 45px;
+    height: 20px;
+    background: rgb(203, 203, 203);
+    border-radius: 100px / 50px;
+  }
+
+  #ink-bottle4{
+    position: absolute;
+    top: 360px; left: 535px;
+    width: 45px;
+    height: 20px;
+    background: rgb(203, 203, 203);
+  }
+
+
+  #bottle-lid1{
+    position: absolute;
+    top: 200px; left: 635px;
+    width: 45px;
+    height: 20px;
+    background: rgb(229, 216, 195);
+    border-radius: 100px / 50px;
+  }
+
+  #bottle-lid2{
+    position: absolute;
+    top: 220px; left: 635px;
+    width: 45px;
+    height: 20px;
+    background: rgb(192, 175, 161);
+    border-radius: 100px / 50px;
+  }
+
+  #bottle-lid3{
+    position: absolute;
+    top: 210px; left: 635px;
+    width: 45px;
+    height: 20px;
+    background: rgb(192, 175, 161);
+  }
+
+  #bottle-body1{
+    position: absolute;
+    top: 235px; left: 626px;
+    width: 65px;
+    height: 40px;
+    background: rgb(116, 75, 124);
+    border-radius: 100px / 50px;
+  }
+
+  #bottle-body2{
+    position: absolute;
+    top: 355px; left: 626px;
+    width: 65px;
+    height: 40px;
+    background: rgb(116, 75, 124);
+    border-radius: 100px / 50px;
+  }
+
+  #bottle-body3{
+    position: absolute;
+    top: 255px; left: 626px;
+    width: 65px;
+    height: 120px;
+    background: rgb(116, 75, 124);
+  }
